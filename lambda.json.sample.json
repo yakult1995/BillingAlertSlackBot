@@ -1,0 +1,10 @@
+{
+  "name": "BillingAlert_Slackbot",
+  "description": "BillingAlert_Slackbot",
+  "region": "us-east-1",
+  "handler": "lambda_function.lambda_handler",
+  "role": "{IAM Roll}",
+  "timeout": 300,
+  "runtime": "python3.6",
+  "memory": 128
+}
